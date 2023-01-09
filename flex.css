@@ -1,0 +1,37 @@
+.test{
+    cursor: pointer;
+}
+.test2{
+    cursor: url("https://media.istockphoto.com/id/1041299888/vector/winning-gesture-emoticon.jpg?s=612x612&w=0&k=20&c=bCQEr1efJvY6Kmmmzzox-S0Qteg4QzwAbZ4tCTvcnGs=");
+}
+.parent{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.child-1{
+    padding:50px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+    flex-grow: 3;
+}
+.child-2{
+    padding:50px;
+    background-color:red;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+}
+.child-3{
+    padding:50px;
+    background-color:blue;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+}
