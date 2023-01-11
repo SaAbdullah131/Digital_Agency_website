@@ -68,6 +68,9 @@
     color:white;
     padding:20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
 }
 .service-btn {
     border-radius: 25px;
@@ -98,7 +101,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    padding:5px 2px; */
+    padding:5px 2px; 
     margin-right: 10px;
 }
 .more-details-button {
@@ -111,6 +114,28 @@
     margin-bottom: 10px;
 }
 .service-left-container {
+    width: 50%;
     display: flex;
     align-items: center;
+}
+/* .service-right-container {
+    width: 50%;
+} */
+.service-1 {
+    padding:10px;
+    background-color: white;
+    box-shadow: 4px 4px  8px gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    text-align:center;
+    color:black;
+    margin:5px;
+}
+.service-up,.service-down {
+    display: flex;
+}
+.service-logo {
+    width:50%;
+    padding-bottom: 10px;
 }
