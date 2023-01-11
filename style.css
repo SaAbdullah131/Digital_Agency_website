@@ -1,26 +1,4 @@
-/* *{
-margin:0px;
-padding:0px;
-}
-.nav-container {
-    display: flex;
-    padding:20px;
-    justify-content: space-around;
-    background-color: #9b9898;
-    color:white;
-}
-.items{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    
-}
-.item {
-    font-size: 21px;
-    font-weight: bold;
-    padding:5px;
-    margin-right: 10px;
-} */
+
 * {
      margin:0px;
      padding:0px;
@@ -67,4 +45,18 @@ padding:0px;
     width: 50%;
     margin:0 auto;
     padding:10px;
+}
+/* working with two button  */
+.btn {
+    padding:15px 35px;
+    border: none;
+    font-size: 18px;
+    margin:5px;
+}
+.btn-discover {
+    background-color: red;
+    color: white;
+}
+.btn-hire {
+    color: red;
 }
