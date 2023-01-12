@@ -170,11 +170,41 @@
  Blogs section  
  ---------------------*/
  .blogs {
-  display: flex;
   text-align: center;
-  justify-content: center;
+  margin-bottom: 40px;
 }
 /* .blog-heading {
     display: flex;
     justify-content: center;
 } */
+.blogs-cart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.blog-cart {
+    width: 350px;
+    height: 430px;
+    background: white;
+    box-shadow: 4px 6px 40px gray;
+    border-radius: 15px;
+    padding:10px;
+}
+.cart-img {
+    width: 100%;
+    padding:5px;
+    margin-bottom: 15px;
+}
+.blog-cart-title {
+    font-weight: 700;
+    font-size: 22px;
+    padding:5px;
+    margin-bottom: 10px;
+}
+.blog-cart-des {
+    font-size: 17px;
+    padding:2px;
+}
