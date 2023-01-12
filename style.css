@@ -150,6 +150,7 @@
     margin:auto;
     border-radius: 25px;
     margin-top:-100px;
+    margin-bottom: 30px;
 }
 .appointment-des {
     width: 50%;
@@ -165,3 +166,15 @@
     align-items: center;
     color:red;
 }
+/*--------------------
+ Blogs section  
+ ---------------------*/
+ .blogs {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+/* .blog-heading {
+    display: flex;
+    justify-content: center;
+} */
