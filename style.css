@@ -239,6 +239,14 @@
     padding:10px;
     margin-bottom: 10px;
 }
+.logo-des{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.social-icon{
+    padding:5px;
+    margin-left: 5px;
+}
 ul >li {
     list-style: none;
     font-size: 18px;
